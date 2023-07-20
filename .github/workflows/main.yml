@@ -1,0 +1,24 @@
+name: Calculator 
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build my project
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout public repo
+        uses: actions/checkout@v2
+        with:
+          repository: calculator_pytest
+          ref: main
+          
+      - name: Install dependency
+        run: |
+          echo "Installing dependency"
+          pip install -r requirements.txt
+
