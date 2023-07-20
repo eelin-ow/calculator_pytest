@@ -1,0 +1,30 @@
+{
+    "title": "Test run",
+    "execution": {
+        "start_time": 1689772570.355523,
+        "end_time": 1689772570.36201,
+        "duration": 6,
+        "cumulative_duration": 0
+    },
+    "stats": {
+        "passed": 0,
+        "failed": 0,
+        "skipped": 0,
+        "broken": 0,
+        "muted": 0,
+        "total": 0
+    },
+    "results": [],
+    "threads": [],
+    "suites": [],
+    "environment": null,
+    "host_data": {
+        "system": "Darwin",
+        "node": "Ows-MacBook-Air.local",
+        "release": "22.5.0",
+        "version": "Darwin Kernel Version 22.5.0: Thu Jun  8 22:21:34 PDT 2023; root:xnu-8796.121.3~7/RELEASE_ARM64_T8112",
+        "machine": "arm64",
+        "python": "3.11.3.final.0",
+        "pip": "23.1.2"
+    }
+}
