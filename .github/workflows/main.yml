@@ -22,3 +22,7 @@ jobs:
           echo "Installing dependency"
           pip install -r requirements.txt
 
+      - name: Run pytest
+        run: |
+          pytest test_calculator.py
+
