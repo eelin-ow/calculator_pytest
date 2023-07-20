@@ -14,7 +14,7 @@ jobs:
       - name: Checkout public repo
         uses: actions/checkout@v2
         with:
-          repository: calculator_pytest
+          repository: eelin-ow/calculator_pytest
           ref: main
           
       - name: Install dependency
